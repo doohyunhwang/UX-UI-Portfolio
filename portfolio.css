@@ -1,0 +1,70 @@
+.navbar {
+    background-color:#e3f2fd !important;
+}
+
+.display-4{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 100 !important;
+    text-align: center;
+}
+
+.location {
+    text-align: center;     
+}
+
+.collapse{
+    justify-content: center;
+    padding: right 38px;
+}
+
+.jumbotron{
+    
+    height: 640px;
+    text-align: left;
+    background-color: white !important;
+}
+/* #home{background-image: url('../img/jumbotron-bkg-2.jpg'); */
+    /* margin-top: 50px; */
+    /* text-align: center;} */
+
+.intro{
+    padding: 50px;
+    font-size: 18pt;
+    font-family: 'Oswald';
+}
+
+.card {
+    height: 350px;
+}
+
+.card-title{
+    font-family: 'Roboto condensed', sans-serif;
+    font-weight: 800 solid;
+    text-align: left;
+    /* padding-left: 30px; */
+    
+}
+
+.card-text{
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    text-align: left;
+}
+
+ .card-button{ 
+    
+    width: 200px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.btn {
+    font-size: 16pt !important;
+}
+
+/* .enabling-img { */
+    width: 480px;
+    height: 418.89px;
+}
