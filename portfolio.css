@@ -66,6 +66,7 @@
 @media (max-width:1000px) {
     .intro{
         font-size: 20px;
+        color: white;
     }   
 };
 /* .project { */
