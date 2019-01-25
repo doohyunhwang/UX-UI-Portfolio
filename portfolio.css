@@ -130,6 +130,7 @@
     align-items: center;
  }
 
+<<<<<<< Updated upstream
  /* .fa-2x { */
      /* color: black; */
      /* height: 50px !important; */
@@ -166,3 +167,12 @@
     color: #F8B500;
     background-color: #263D5C;
 }
+=======
+ .page-{}
+
+.fa-2x{
+    width: 40px !important;
+    height: 40px !important;
+    color: black !important;
+}    
+>>>>>>> Stashed changes
