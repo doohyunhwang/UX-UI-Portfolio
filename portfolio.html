@@ -140,23 +140,65 @@
     <footer class="footer"> 
   <div class="container-footer d-flex justify-content-center"> 
      <div class="row justify-content-center"> 
-       <div class="col-md-12"> 
-         <a class="fb-icon"> 
-           <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i> 
+      <div class="col-md-6">
+        <h2 class="footer-text">Ways to contact me:</h2>
+      </div>
+
+       <div class="col-md-6"> 
+        <a class="icon" data-toggle="modal" data-target="#exampleModal" href="Mailto:doohyunhwang1@gmail.com">
+          <i class="email fas fa-envelope"></i>
+        </a> 
+        <a class="icon" href="www.facebook.com"> 
+           <i class="fab fa-facebook-f"></i> 
          </a>
-         <a class="tw-ic">
-          <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+         <a class="icon" href="www.linkedin.com">
+            <i class="fab fa-linkedin-in"> </i>
         </a>
-        <a class="li-ic">
-            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
+        <a class="icon" href="https://github.com/doohyunhwang">
+          <i class="github fab fa-github-square"></i>
+        </a>
+        <a class="icon" href="https://www.behance.net/jrubalcava67af">
+          <i class="behance fab fa-behance-square"></i>
+        </a>
+         
     </div> 
   </div>
 </footer> 
 
-
+<!-- Modal=================================== -->
     
-  
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">I'll get back to you as soon as I can!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="sender-name" class="col-form-label">Your Name:</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Your Email:</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Your Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="bye btn-modal" data-dismiss="modal">Close</button>
+          <button type="button" class="send btn-modal">Send message</button>
+        </div>
+      </div>
+    </div>
+   </div>
   
     
   
