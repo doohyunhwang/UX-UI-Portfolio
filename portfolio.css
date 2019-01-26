@@ -3,7 +3,7 @@
     background-color: #F8B500 !important;
     font-size: 14pt;
     font-weight: 500;
-    height: 85px;
+    height: 75px;
     
 }
 
@@ -11,10 +11,10 @@
     color: black !important;
 }
 
-.body-background {
+/* .body-background { */
     /* background-color:rgb(245, 243, 218)!important; */
     /* background-color: #B4D8EA !important; */
-}
+/* } */
 
 .display-4{
     font-family: 'Roboto' , sans-serif;
@@ -42,33 +42,20 @@
     height: 550px;
     text-align: left;
     /* background-color:rgb(245, 243, 218) !important; */
-    background-color: #263D5C !important;
-    
+    background-color: #263D5C !important;    
 }
 
-@media (max-width:1000px) {
-    .display-4{
-        padding-top: 30px;
-       
-    }
-};
-/* #home{background-image: url('../img/jumbotron-bkg-2.jpg'); */
-    /* margin-top: 50px; */
-    /* text-align: center;} */
 
-.intro{
+
+.intro {
     
     font-size: 22pt;
     font-family: 'Oswald';
-    color: whitesmoke;   
+    color: white !important;   
 }
 
-@media (max-width:1000px) {
-    .intro{
-        font-size: 20px;
-        color: white;
-    }   
-};
+
+
 /* .project { */
     /* ; */
 /* } */
@@ -96,16 +83,17 @@
     color: whitesmoke;
 }
 
- .card-button{ 
+ /* .card-button{  */
     
-    width: 200px;
-    height: 50px;
-    font-family: 'Open Sans', sans-serif;
+    /* width: 200px; */
+    /* height: 50px; */
+    /* font-family: 'Open Sans', sans-serif; */
 
-}
+/* } */
 
 .btn {
-    font-size: 16pt !important;
+    font-size: 15pt !important;
+    border-radius: 30px !important;
     
 }
 
@@ -130,7 +118,6 @@
     align-items: center;
  }
 
-<<<<<<< Updated upstream
  /* .fa-2x { */
      /* color: black; */
      /* height: 50px !important; */
@@ -155,6 +142,7 @@
  .footer-text {
      font-size: 28pt;
      padding: 8px;
+     color: black;
  }
 
 .modal-content{
@@ -167,12 +155,77 @@
     color: #F8B500;
     background-color: #263D5C;
 }
-=======
- .page-{}
 
-.fa-2x{
-    width: 40px !important;
-    height: 40px !important;
-    color: black !important;
-}    
->>>>>>> Stashed changes
+
+/* Media Queries============================================================= */
+
+@media (max-width: 425px) {
+    .display-4 {
+        padding-top: 75px;
+        font-size: 3.25rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        padding-top: 65px;
+        font-size: 3.5rem !important;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    .intro {
+        font-size: 16pt;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        font-size: 20pt;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .card-title{
+        font-size: 14 pt;
+        color:#F8B500;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 16pt;
+        color: #F8B500;
+    }
+}
+
+@media (max-width: 425px) {
+    .card-text{
+        font-size: 11 pt;
+        color:whitesmoke;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-text {
+        font-size: 11pt;
+        color: whitesmoke;
+    }
+}
+
+@media (max-width: 425px) {
+    .card-button {
+        font-size: 12pt !important;
+        color:whitesmoke;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-button {
+        font-size: 12pt !important;
+        color: whitesmoke;
+    }
+}
