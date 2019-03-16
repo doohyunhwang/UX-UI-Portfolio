@@ -1,34 +1,50 @@
 .navbar {
     /* background-color: #CBD1CF !important; */
-    background-color: #F8B500 !important;
+    /* background-color: #F8B500 !important; */
+    background-color: #bfced1;
     font-size: 14pt;
     font-weight: 500;
     height: 75px;
     
+    
 }
+
+
+.logo{
+    width: 140px;
+    height: 140px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
 
 .nav-link {
     color: black !important;
+    padding: 10px;
+    padding-right: 20px !important;
 }
 
-/* .body-background { */
-    /* background-color:rgb(245, 243, 218)!important; */
-    /* background-color: #B4D8EA !important; */
-/* } */
+.body-background {
+    background-color: #bfced1;
+    
+}
+    
 
 .display-4{
-    font-family: 'Roboto' , sans-serif;
+    font-family: 'Century Gothic' , sans-serif;
     font-weight: 100 !important;
-    text-align: center;
-    padding: 10px;
+    text-align: center !important;
+    /* padding: 10px; */
     color: whitesmoke;
    
 }
 
 .location {
     text-align: center;
+    font-family: 'Century Gothic', san-serif;
     font-size: 14pt;
     color: white;
+    font-weight: bold;
     
 }  
 
@@ -42,45 +58,49 @@
     height: 550px;
     text-align: left;
     /* background-color:rgb(245, 243, 218) !important; */
-    background-color: #263D5C !important;    
+    /* background-color: #263D5C !important;    */
+    background-color: #bfced1 !important;
+    transition: all 2s ease-in-out;
 }
 
-.jumbotron{
-    transition: all 1s ease-in-out;
-}
 
+   
 .intro {
     
     font-size: 22pt;
-    font-family: 'Oswald';
-    color: white !important;   
+    font-family: 'Century Gothic';
+    color: black !important;   
+}
+
+.project{
+    font-family: 'Century Gothic';
+    font-weight: 400;
 }
 
 
-
-/* .project { */
-    /* ; */
-/* } */
-
 .card {
-    height: auto;
+    height: 356px;
+    width: 422px;
     background-color: #263D5C !important;
     border-radius: 20px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-title{
-    font-family: 'Roboto condensed', sans-serif;
+    font-family: 'Century Gothic', sans-serif;
     font-weight: 800 solid;
     text-align: left;
-    padding-left: 5px;
+    /* padding-left: 5px; */
     color: #F8B500;
     
 }
 
 .card-text{
     font-size: 14pt;
-    font-family: 'Montserrat', sans-serif;
-    padding: 5px;
+    font-family: 'Century Gothic', sans-serif;
+    /* padding: 20px; */
     text-align: left;
     color: whitesmoke;
 }
@@ -95,30 +115,41 @@
 
 .btn {
     font-size: 15pt !important;
-    border-radius: 30px !important;
+    font-family: 'century gothic';
+    /* border-radius: 30px !important; */
     
 }
 
 .enabling-img {
-    width: 900px; 
-    max-height: 300px;
+    /* width: 900px;  */
+    /* max-height: 300px; */
     border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  } 
 
  .airbnb-img {
-    width: 900px; 
-    min-height: 300px;
+    
+    min-height: 356px !important;
+    width: 422px !important; 
     border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
  } 
 
 .travel-img{
-    width:900px;
-    max-height:300px;
+    min-height: 356px;
+    width: 422px; 
     border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
  .container-footer {
-    background-color: #F8B500;
+    background-color: #bfced1 !important;
     width: 100%;
     height: 200px;
     /* padding: 50px; */
